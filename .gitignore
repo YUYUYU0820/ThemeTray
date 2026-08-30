@@ -1,0 +1,8 @@
+bin/
+obj/
+.publish-temp/
+.vs/
+*.user
+*.suo
+.agents/
+AGENTS.md
