@@ -37,8 +37,6 @@ dotnet build .\ThemeTray.csproj
 dotnet publish .\ThemeTray.csproj -c Release -r win-x64 --self-contained false -p:PublishSingleFile=false
 ```
 
-当前版本是框架依赖的多文件应用。发布包应包含 publish 目录中的全部文件，以及对应的中文说明和更新日志；不要只复制 `ThemeTray.exe`。不要覆盖 `Release` 中已有的历史版本 ZIP。
-
 ## 数据与权限
 
 - 配置保存在 `%APPDATA%\ThemeTray\settings.json`。
